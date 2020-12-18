@@ -14,18 +14,21 @@ body {
 .header  {
     height: 100px;
     padding-top: 17px;
-    font-size: 18px;
     color: white;
     display: flex;
     align-items: center;
     justify-content: space-around;
 }
 .logo {
+    display: flex;
+    align-items: center;
 }
 .brand {
+    font-size: 18px;
     margin-left: 10px;
 }
 .navbar {
+    margin-left: 40px;
     width: 445px;
     font-size: 14px;;
     text-align: center;
@@ -50,6 +53,68 @@ body {
     font-size: 14px;
     margin-left: 20px;
     border: 1px solid white;
+    color: white;
+    background-color: transparent;
     padding: 10px 28px;
     border-radius: 6px;
+}
+.login:hover {
+    cursor: pointer;
+}
+.login:focus {
+    outline: none;
+}
+.info {
+    margin-top: 140px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h1 {
+    margin-bottom: 0px;
+    font-size: 72px;
+    font-weight: bold;
+    color: white;
+}
+h2 {
+    margin-top: 40px;
+    margin-bottom: 0px;
+    font-size: 24px;
+    font-weight: 600;
+    color: white;
+    text-align: center;
+}
+.sign {
+    margin-top: 40px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #ED4C5C;
+    border: 1px solid white;
+    padding: 21px 53px;
+    border-radius: 6px;
+    background-color: white;
+}
+.sign:hover {
+    cursor: pointer;
+}
+.sign:focus {
+    outline: none;
+}
+a:link {
+    text-decoration: none;
+    color: white;
+}
+a:visited {
+    color: white;
+}
+a:hover {
+    font-weight: bold;
+}
+a:active {
+    font-weight: bold;
+}
+.button {
+    outline: none;
+    border: none;
 }
