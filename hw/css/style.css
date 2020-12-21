@@ -4,19 +4,18 @@
 body {
     margin: 0;
     font-family: 'Lato', sans-serif;
-}
-.banner {
     min-height: 100vh;
-    background-image: linear-gradient(90deg, rgba(213, 32, 71, 0.8) 0%, rgba(238, 61, 27, 0.8) 100%), url(background-image.jpg);
+    background-image: linear-gradient(90deg, rgba(213, 32, 71, 0.8) 0%, rgba(238, 61, 27, 0.8) 100%), url(../img/background-image.jpg);
     background-size: 100%;
 }
-.header  {
+header  {
     height: 100px;
     padding-top: 17px;
     color: white;
     display: flex;
     align-items: center;
     justify-content: space-around;
+    text-transform: uppercase;
 }
 .logo {
     display: flex;
@@ -25,13 +24,14 @@ body {
 .brand {
     font-size: 18px;
     margin-left: 10px;
+    font-weight: bold;
 }
-.navbar {
+nav {
     margin-left: 40px;
     width: 445px;
     font-size: 14px;;
     text-align: center;
-    word-spacing: 19px;
+    word-spacing: 15px;
 }
 .signup {
     word-spacing: normal;
@@ -53,17 +53,20 @@ body {
     margin-left: 20px;
     border: 1px solid white;
     color: white;
+    text-transform: inherit;
     background-color: transparent;
     padding: 10px 28px;
     border-radius: 6px;
 }
 .login:hover {
     cursor: pointer;
+    color:#ED4C5C;
+    background-color: white;
 }
 .login:focus {
     outline: none;
 }
-.info {
+section {
     height: 80vh;
     display: flex;
     flex-direction: column;
@@ -75,6 +78,7 @@ h1 {
     font-size: 72px;
     font-weight: bold;
     color: white;
+    text-transform: uppercase;
 }
 h2 {
     margin-top: 40px;
@@ -89,6 +93,7 @@ h2 {
     font-size: 14px;
     font-weight: 600;
     color: #ED4C5C;
+    text-transform: uppercase;
     border: 1px solid white;
     padding: 21px 53px;
     border-radius: 6px;
@@ -96,6 +101,8 @@ h2 {
 }
 .sign:hover {
     cursor: pointer;
+    color: white;
+    background-color: transparent;
 }
 .sign:focus {
     outline: none;
